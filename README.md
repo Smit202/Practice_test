@@ -49,27 +49,19 @@ Implement the fetchData function and use it to fetch data from the provided API 
 
 Rewrite the following code snippet using async/await syntax to make it more readable and maintainable:
 
+```jsx
 function getData() {
-
   return new Promise((resolve, reject) => {
-
     setTimeout(() => {
-
       if (Math.random() < 0.5) {
-
         resolve('Data received');
-
       } else {
-
         reject('Error occurred');
-
       }
-
     }, 1000);
-
   });
-  
 }
+```
 
 [Solution](https://github.com/Smit202/Practice_test/tree/master/Question-2)
 

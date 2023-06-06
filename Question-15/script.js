@@ -1,3 +1,29 @@
 
-let arr = [2, 5, 9, 4, 7, 16, 78];
-console.log(arr.every(num => num>0));
+function findPerson(name) {
+    return arr.find(person => person.name === name);
+}
+
+let arr = [
+    {
+        name: "raj",
+        age: 23,
+    },
+    {
+        name: "het",
+        age: 18,
+    },
+    {
+        name: "jay",
+        age: 25,
+    },
+    {
+        name: "mohan",
+        age: 56,
+    },
+    {
+        name: "smit",
+        age: 21,
+    }
+];
+
+console.log(findPerson("smit"));
